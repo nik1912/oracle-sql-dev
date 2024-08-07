@@ -1,0 +1,8 @@
+SELECT get_avg_sal(90) FROM DUAL;
+
+DECLARE
+V_AVG_SAL NUMBER;
+BEGIN
+ V_AVG_SAL:=get_avg_sal(90);
+  DBMS_OUTPUT.PUT_LINE(get_avg_sal(90));
+END;

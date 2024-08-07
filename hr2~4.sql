@@ -1,0 +1,3 @@
+BEGIN
+  DBMS_OUTPUT.PUT_LINE(get_avg_sal(50));
+END;

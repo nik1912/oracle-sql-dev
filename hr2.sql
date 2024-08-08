@@ -5,7 +5,7 @@ DECLARE
   v_basic_percent NUMBER :=45;
   v_pf_percent NUMBER :=12;
   fname VARCHAR2(15);
-  emp_sal NUMBER(10)
+  emp_sal NUMBER(10);
   
 BEGIN
   c := 'Hello world';

@@ -14,3 +14,10 @@ SELECT * FROM departments d
 WHERE not EXISTS
                  (SELECT * FROM employees e
                   WHERE e.department_id = d.department_id);
+
+
+
+SELECT DISTINCT d.id_department FROM departments d
+WHERE not EXISTS
+                 (SELECT * FROM employees e
+                  WHERE e.department_id = d.department_id);

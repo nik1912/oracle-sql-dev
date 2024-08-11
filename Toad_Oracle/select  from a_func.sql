@@ -19,3 +19,5 @@ SELECT object_type, object_name, status
                 
                 
 select * from USER_PLSQL_OBJECT_SETTINGS;
+
+select * from departments;

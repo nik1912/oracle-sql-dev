@@ -1,0 +1,4 @@
+CREATE FUNCTION a_function RETURN BOOLEAN AS
+   BEGIN
+      RETURN(TRUE);
+    END;

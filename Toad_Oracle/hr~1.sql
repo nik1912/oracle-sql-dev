@@ -10,4 +10,5 @@ SELECT e.employee_id ,e.job_id,e.first_name, e.last_name, e.salary,
    FROM employees e
    
    
-   where e.job_id in ('FI_ACCOUNT','IT_PROG','PU_CLERK');
+   where 1=1 
+   and e.job_id in ('FI_ACCOUNT','IT_PROG','PU_CLERK');

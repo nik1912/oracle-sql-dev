@@ -10,5 +10,5 @@ SELECT e.employee_id ,e.job_id,e.first_name, e.last_name, e.salary,
    FROM employees e
    
    
-   where 1=1 -- now
+   where 1=1 -- now--445
    and e.job_id in ('FI_ACCOUNT','IT_PROG','PU_CLERK');
